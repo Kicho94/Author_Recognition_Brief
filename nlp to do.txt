@@ -1,0 +1,42 @@
+TFIDF 
+- term frequency tf(t,d) - count of t in d/number of words in d
+колку пати истиот збор се повторува (пр. правиш листа па ако 5 од тие збора ги има кај ист автор (класа), таа е класата)
+- inverse document frequency - idf(t) = N/df
+„важност“, инфо од збор .. за најчесто појавувани зборови најниска
+- ТFIDF - комбинација. Тие со повисоки вредности се класифицираат
+tf-idf = tf(t,d)*lod(N/(df+1))
+
+n-gram
+- Markov assumption - може да помогне ако идеме со претпоставка дека пример шекспир често завршува реченици со ... 
+мада не верувам дека треба
+
+- word2vec - предвидува само според 1, кој следи 
+Ако два збора се слични, векторите се поблиску.
+- skip gram model - предвидува според 2, и пред и после
+
+- Semantics relatedness
+- synonym detection
+- Analogy
+
+*Hemingway
+	- користи што е можно помалку придавки, short sentences, simple structure, simple words
+	- vivid descriptions and concentration on particular details, full of facts
+	- emphasis on nouns, symbolism, personification
+	-  пр. може да се искористи if count(noun) > count(adjective) than author - 'Hemingway'
+
+*Mark Twain
+	- vernicular speech - everyday speech, slang
+	- dialect, Southwestern humor, unpolished humor along with the dosses of cruelty
+	- ex. of Hucklberry Finn - ("ef","didn’","smuf'n","I's gwyne", "agin", "n–s"),"t" is often missng 
+	- often writes abou slave dealers, riverboat travelers and gamblers
+	- "softeneth" instead of soften, adding "eth" to the end of words - archaic forms
+	- vivid descriptions, uses ; between sentences
+
+*Agatha Christie
+	- commonly used words ('crime', 'murder', 'murderer','victim', 'case', 'poison',
+	'a detective or private investigator', 'suspect', 'clue', 'mystery', 'dead', 'killed'
+	'alibi', evidence', 'hunch', 'motive', 'witness')
+	- shorter sentences and sharp dialogue, simple style, vividly described scene
+	
+*Edgar Alan Poe
+	-
