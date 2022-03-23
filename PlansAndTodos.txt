@@ -18,8 +18,6 @@ United States:
 
 English:
 	Charles Dickens
-	George Orwell
 	Jane Austin
-	J.K. Rowling
-	Tolkien
-	
+	George Eliot
+	Arthur Conan Doyle
