@@ -1,0 +1,50 @@
+1. A-rate - (adjective rate)        ///////
+2. N-rate - (noun rate)			 ///////
+3. P-rate - (pronoun rate)		 ///////
+4. V-rate - (verb rate)			 ///////
+5. TTR - (type token ratio) - total vocabulary / overall text length	
+6. Brunet’s Index (W) - a length insensitive version of TTR with richer speech producing lower values
+7. Honore's Statistic (R) which is dependant on the number of words in the vocabulary only spoken once and indicates the richness of the vocabulary
+8. Clause like semantic unit (CSU) - a measure of semantic cohesion in phrases and characterizes the participant’s ability to form noun and verb phrases and gives an indication of the flow of
+speech
+9. content density (i.e., the ratio of open-class words to closed-class words) 
+
+13. number of different maximal phrase-types (word n-grams) that were repeated
+14. The number of occurances of the vague, indefinite words “thing”, “anything”, and “something” ///////
+15. Non-specific words - The words appearing in every transcript were considered as non-specific (NSE) words.///////
+16. Specific words - Analogous to the NS words, the specific (SPE) words only appeared in exactly one transcript.  ///////
+17. semantic density. It was calculated on the basis of “informational units” that are predefined objects or text segments that might refer to important information
+19. Question ratio (which, what, etc)  ///////
+20. Filler ratio (ahm, ehm, etc)  ///////
+22. Adverb frequency 	 ///////
+23. Particle frequency	 ///////
+24. Conjunction frequency	 ///////
+25. Pronoun-to-noun ratio	 ///////
+26. Unintelligible word ratio	///////
+27. Standardized word entropy - word entropy divided by the log of the total word count (after stemming)
+28. Suffix ratio - calculated by dividing the total number of suffixes by the total number of words spoken by the subject
+29. Number ratio 	 ///////
+30. Syllables-Per-Minute
+31. GoAhead Utterances are instances in dialogue in which a speaker provides responses that
+do not add anything in a conversation beyond a minimal response
+32. Paraphrasing – Direct, Indirect, and Reflexive
+33. Average number of word repetitions?
+34. Repetitions
+35. Incomplete Words	///////
+36. MLUw - mean length of utterance by words
+37. MLUm - mean length of utterance by morphemes
+38. Order of events?
+
+
+
+21. Incomplete sentence ratio
+11. Informativeness: estimates how much of the information in the referent is being covered by the participant.
+12. Pertinence : determines how much of what the participant is saying is covered by the referent due to the fact that someparticipants (particularly those with AD), can drift off-topic.
+
+
+L most frequent byte level n-grams with their normalized frequencies
+common word frequencies approach
+word-n-gram model
+perplexity 
+complexity of relations?
+hierarchical tree representation of a given sentence - depth of the parsing tree, the width of the parsing tree and the depth to width ratio
