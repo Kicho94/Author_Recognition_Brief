@@ -23,11 +23,11 @@ For the second approach TF-IDF was used, because it not only focuses on the freq
 
 ## MODEL EXPLAINABILITY
 We used the SHAP method to derive a relevance score for each word in an instance. The relevance scores are then aggregated together to achieve global variable importance of the model. 
-**
+(br />Word “mr” is the biggest signal word used by our model, contribute most to class George Elliot predictions.
 ![img_1](https://github.com/Kicho94/Author_Recognition_Brief/blob/main/IMAGES/image_1.png)
-**
+<br />The visualization with SHAP for the same sentence is illustrated in Image 2. Here, the features with the strongest impact on the prediction correspond to longer arrows that point in the direction of the predicted class. In the context of the sentiment analysis model here red corresponds to a more positive review and blue a more negative review.
 ![img](https://github.com/Kicho94/Author_Recognition_Brief/blob/main/IMAGES/image_2.png)
-**
+<br />The force plot provides much more quantitative information than the text coloring. Hovering over a chuck of text will underline the portion of the force plot that corresponds to that chunk of text, and hovering over a portion of the force plot will underline the corresponding chunk of text.
 ![img](https://github.com/Kicho94/Author_Recognition_Brief/blob/main/IMAGES/image_3.png)
 
 
