@@ -41,7 +41,7 @@ The results show that the logistic regression algorithm achieved the best result
 
 Algorithm | Accuracy % | F1 score % 
 --- | --- | --- 
-**TFIDF Voting** | **88.33** | **87.37**
+**TFIDF Voting** | **89.66** | **88.63**
 TFIDF LR | 87.67 | 86.32 
 TFIDF RF | 75.67 | 74.08
 Transformer | 85.67 | 84.26 
