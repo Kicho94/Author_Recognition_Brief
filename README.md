@@ -61,8 +61,6 @@ Regarding our inexperience in such a complex process as NLP, we managed to build
 There are more models that can be applied and then, the accuracy result can be compared to the result achieved in this project. It is possible in future to expand the scope to more authors and books.
 This concept can be expanded and improved for Author profiling (characterization)  -  getting the writer’s profile or characteristics; for example, gender, age, background, and language, or Similarity detection for finding the similarity between the texts to determine the possibility of them having been produced by a single writer, without necessarily finding the real author.
 
-## HOW TO RUN THE CODE
-
 ## TEAM
 * Kristijan Spasovski
 * Katerina Dimevska
