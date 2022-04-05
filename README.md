@@ -22,7 +22,8 @@ Dataset was preprocessed using couple of features, relating to the form of the t
 We approached this project at different levels, with different machine learning models and classifiers, and natural language processing techniques. 
 The first approach was using **CountVectorizer** in understanding the type of text by the frequency of words in it. Results showed that better accuracy is seen from **Logistic Regression** with 82.67%, followed by **Random Forest** with 78%. But it lacks in identifying more important and less important words, but considers abundant words as the most statistically significant. It also doesn’t identify the relationships between words such as linguistic similarity between them.
 For the second approach **TF-IDF** was used, because it not only focuses on the frequency of words present in the text but also provides the importance of the words. The best result was shown with the **Voting** classifier with accuracy of 88.33%.
-
+<br />The last, but not the least we tried **Transformer**, which is considered to be the state of the art solution for NLP problems. 
+<br />The Transformer NLP model introduced an 'attention' mechanism that takes into account the relationship between all the words in the sentence. It creates differential weightings indicating which other elements in the sentence are most critical to the interpretation of a problem word.
 ## MODEL EXPLAINABILITY
 We used SHAP (SHapley Additive exPlanations) to derive a relevance score for each word in an instance. The relevance scores are then aggregated together to achieve global variable importance of the model. 
 <br />The word **“mr”** is the biggest signal word used by our model, contribute most to class George Elliot predictions.
