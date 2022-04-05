@@ -43,7 +43,7 @@ CV RF | 78.00 | 76.39
 TFIDF LR | 87.67 | 86.32 
 TFIDF ENSEMBLE | 88.33 | 87.37 
 TFIDF RF | 75.67 | 74.08 
-Transformer | 85.33 | / 
+Transformer | 85.67 | 84.26 
 
 ## SUMMARY OF PROBLEMS ENCOUNTERED
 The first challenge was gathering and preprocessing data, as we decided to make our own dataset.
