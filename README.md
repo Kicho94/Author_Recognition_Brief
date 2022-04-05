@@ -23,9 +23,12 @@ For the second approach TF-IDF was used, because it not only focuses on the freq
 
 ## MODEL EXPLAINABILITY
 We used the SHAP method to derive a relevance score for each word in an instance. The relevance scores are then aggregated together to achieve global variable importance of the model.
-[img]
-[img]
-[img]
+**
+![img_1](https://github.com/Kicho94/Author_Recognition_Brief/blob/main/IMAGES/image_1.png)
+**
+![img](https://github.com/Kicho94/Author_Recognition_Brief/blob/main/IMAGES/image_2.png)
+**
+![img](https://github.com/Kicho94/Author_Recognition_Brief/blob/main/IMAGES/image_3.png)
 
 
  
