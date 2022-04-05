@@ -47,7 +47,7 @@ Transformer | 85.33 | /
 
 ## SUMMARY OF PROBLEMS ENCOUNTERED
 The first challenge was gathering and preprocessing data, as we decided to make our own dataset.
-Except that computing time with SHAP was high, we found that when transformer model has been executed accuracy was decreasing due to randomness.
+Besides that computing time with SHAP was high, we found that when transformer model has been executed accuracy was decreasing due to randomness.
 
 
 ## CONCLUSION
