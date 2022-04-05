@@ -22,7 +22,7 @@ The first approach was using countvectorizer in understanding the type of text b
 For the second approach TF-IDF was used, because it not only focuses on the frequency of words present in the text but also provides the importance of the words. The best result was shown with the Ensemble classifier with accuracy of 88.33%.
 
 ## MODEL EXPLAINABILITY
-We used the SHAP method to derive a relevance score for each word in an instance. The relevance scores are then aggregated together to achieve global variable importance of the model.
+We used the SHAP method to derive a relevance score for each word in an instance. The relevance scores are then aggregated together to achieve global variable importance of the model. 
 **
 ![img_1](https://github.com/Kicho94/Author_Recognition_Brief/blob/main/IMAGES/image_1.png)
 **
@@ -52,7 +52,7 @@ Except that computing time with SHAP was high, we found that when transformer mo
 
 ## CONCLUSION
 In this project, four types of writing-style features (lexical, syntactic, structural, and content-specific features) are extracted and inductive learning algorithms are used to build feature-based classification models to recognize authorship of certain text. To examine this framework, we conducted experiments with several classification techniques: logistic regression, random forest, multinomial Naïve Bayes, convolutional neural networks, support vector machines, ensemble and transformers. The experimental results showed that the proposed approach was able to identify authors with satisfactory accuracy of 75 to 90%. All four types of features contributed to discriminating authors. Ensemble outperformed the other two classification techniques in our experiments. Very high performance we achieved with Transformer model too.
-Regarding our inexperience in NLP, we managed to build such a complex model with high accuracy.
+Regarding our inexperience in such a complex process as NLP, we managed to build a relevant model with high accuracy.
 
 ## FUTURE WORK
 There are more models that can be applied and then, the accuracy result can be compared to the result achieved in this project. It is possible in future to expand the scope to more authors and books.
