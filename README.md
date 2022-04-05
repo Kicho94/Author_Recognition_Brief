@@ -36,7 +36,7 @@ We used SHAP (SHapley Additive exPlanations) to derive a relevance score for eac
 
  
 ## FINAL MODEL EVALUATION
-Among all the trained models the best model has been selected which was TF-IDF ENSEMBLE with accuracy of 88.33%, followed by Logistic Regression with 86.67%.
+Among all the trained models the best model has been selected which was TF-IDF Voting with accuracy of 89.66%, followed by Logistic Regression with 86.67%.
 The results show that the logistic regression algorithm achieved the best result in the first scope compared with the other models, with 82.67% performance accuracy. In all models there is only a slight difference between accuracy and f1 score.
 
 Algorithm | Accuracy % | F1 score % 
