@@ -20,12 +20,12 @@ Dataset was preprocessed using couple of features, relating to the form of the t
 
 ## MODELING – extracting test and training data
 We approached this project at different levels, with different machine learning models and classifiers, and natural language processing techniques. 
-The first approach was using countvectorizer in understanding the type of text by the frequency of words in it. Results showed that better accuracy is seen from Logistic Regression with 82.67%, followed by Random Forest with 78%. But it lacks in identifying more important and less important words, but considers abundant words as the most statistically significant. It also doesn’t identify the relationships between words such as linguistic similarity between them.
-For the second approach TF-IDF was used, because it not only focuses on the frequency of words present in the text but also provides the importance of the words. The best result was shown with the Ensemble classifier with accuracy of 88.33%.
+The first approach was using **CountVectorizer** in understanding the type of text by the frequency of words in it. Results showed that better accuracy is seen from **Logistic Regression** with 82.67%, followed by **Random Forest** with 78%. But it lacks in identifying more important and less important words, but considers abundant words as the most statistically significant. It also doesn’t identify the relationships between words such as linguistic similarity between them.
+For the second approach **TF-IDF** was used, because it not only focuses on the frequency of words present in the text but also provides the importance of the words. The best result was shown with the **Voting** classifier with accuracy of 88.33%.
 
 ## MODEL EXPLAINABILITY
 We used SHAP (SHapley Additive exPlanations) to derive a relevance score for each word in an instance. The relevance scores are then aggregated together to achieve global variable importance of the model. 
-(br />Word “mr” is the biggest signal word used by our model, contribute most to class George Elliot predictions.
+<br />Word “mr” is the biggest signal word used by our model, contribute most to class George Elliot predictions.
 ![img_1](https://github.com/Kicho94/Author_Recognition_Brief/blob/main/IMAGES/image_1.png)
 <br />The visualization with SHAP for the same sentence is illustrated in Image 2. Here, the features with the strongest impact on the prediction correspond to longer arrows that point in the direction of the predicted class. In the context of the sentiment analysis model here red corresponds to a more positive review and blue a more negative review.
 ![img](https://github.com/Kicho94/Author_Recognition_Brief/blob/main/IMAGES/image_2.png)
@@ -54,7 +54,7 @@ Besides that computing time with SHAP was high, we found that when transformer m
 
 
 ## CONCLUSION
-In this project, four types of writing-style features (lexical, syntactic, structural, and content-specific features) are extracted and inductive learning algorithms are used to build feature-based classification models to recognize authorship of certain text. To examine this framework, we conducted experiments with several classification techniques: logistic regression, random forest, multinomial Naïve Bayes, convolutional neural networks, support vector machines, ensemble and transformers. The experimental results showed that the proposed approach was able to identify authors with satisfactory accuracy of 75 to 90%. All four types of features contributed to discriminating authors. Ensemble outperformed the other two classification techniques in our experiments. Very high performance we achieved with Transformer model too.
+In this project, four types of writing-style features (lexical, syntactic, structural, and content-specific features) are extracted and inductive learning algorithms are used to build feature-based classification models to recognize authorship of certain text. To examine this framework, we conducted experiments with several classification techniques: Logistic Regression, Random Forest, Multinomial Naïve Bayes, Convolutional Neural Networks, Support Vector Machines, Voting and Transformers. The experimental results showed that the proposed approach was able to identify authors with satisfactory accuracy of 75 to 90%. All four types of features contributed to discriminating authors. Ensemble outperformed the other two classification techniques in our experiments. Very high performance we achieved with Transformer model too.
 Regarding our inexperience in such a complex process as NLP, we managed to build a relevant model with high accuracy.
 
 ## FUTURE WORK
