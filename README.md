@@ -3,7 +3,7 @@
 ## INTRODUCTION
 *What if one could determine who wrote a piece of text? Reveal the writers behind the texts? Is online review fake and written by spam account?*
 Authorship recognition is an important topic in the field of **Natural Language Processing (NLP)**. It enables us to identify the most likely author of articles, news or messages. Yet sometimes we find unfinished pieces of work or a whole bunch of manuscripts with a wide variety of possible authors. In order to assess the importance of such a manuscript, it is vital to know who wrote it. Authorship identification can be applied to tasks such as identifying anonymous author, detecting plagiarism or finding ghost writer. 
-**The goal of our project is after investigating a collection text from multiple authors, if an unforeseen text was written by a particular individual.
+**The goal of our project is after investigating a collection text from multiple authors, if an unforeseen text was written by a particular individual.**
 
 ## DATASET
 Dataset contains text from works written by 19th century English language writing authors of the public domain from **[Gutenberg](https://www.gutenberg.org/)**. With these criteria 7 authors have been selected and their books were queried: **Arthur Conan Doyle**, **Charles Dickens**, **Edgar Allan Poe**, **George Eliot**, **Jack London**, **Jane Austin** and **Mark Twain**. We collected 3 books of each author and built up the data set in csv file. For each book, we selected 10% of the paragraphs. 
