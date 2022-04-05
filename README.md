@@ -49,8 +49,10 @@ Transformer | 85.33 | /
 The first challenge was gathering and preprocessing data, as we decided to make our own dataset.
 Except that computing time with SHAP was high, we found that when transformer model has been executed accuracy was decreasing due to randomness.
 
+
 ## CONCLUSION
-In this project, four types of writing-style features (lexical, syntactic, structural, and content-specific features) are extracted and inductive learning algorithms are used to build feature-based classification models to recognize authorship of certain text. To examine this framework, we conducted experiments with several classification techniques: logistic regression, random forest, multinomial Naïve Bayes, support vector machines, ensemble and transformers. The experimental results showed that the proposed approach was able to identify authors with satisfactory accuracy of 75 to 90%. All four types of features contributed to discriminating authors. Ensemble outperformed the other two classification techniques in our experiments. Very high performance we achieved with Transformer model too. 
+In this project, four types of writing-style features (lexical, syntactic, structural, and content-specific features) are extracted and inductive learning algorithms are used to build feature-based classification models to recognize authorship of certain text. To examine this framework, we conducted experiments with several classification techniques: logistic regression, random forest, multinomial Naïve Bayes, convolutional neural networks, support vector machines, ensemble and transformers. The experimental results showed that the proposed approach was able to identify authors with satisfactory accuracy of 75 to 90%. All four types of features contributed to discriminating authors. Ensemble outperformed the other two classification techniques in our experiments. Very high performance we achieved with Transformer model too.
+Regarding our inexperience in NLP, we managed to build such a complex model with high accuracy.
 
 ## FUTURE WORK
 There are more models that can be applied and then, the accuracy result can be compared to the result achieved in this project. It is possible in future to expand the scope to more authors and books.
