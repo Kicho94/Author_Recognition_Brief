@@ -40,9 +40,8 @@ Algorithm | Accuracy % | F1 score %
 --- | --- | --- 
 CV LR | 82.67 | 81.83  
 CV RF | 78.00 | 76.39 
-TFIDF | 87.67 | 86.32 
+TFIDF LR | 87.67 | 86.32 
 TFIDF ENSEMBLE | 88.33 | 87.37 
-TFIDF RF | 75.67 | 74.08 
 TFIDF RF | 75.67 | 74.08 
 Transformer | 85.33 | / 
 
