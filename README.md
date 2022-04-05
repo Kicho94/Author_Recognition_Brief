@@ -7,6 +7,8 @@ Authorship recognition is an important topic in the field of **Natural Language 
 ## DATASET
 Dataset contains text from works written by 19th century English language writing authors of the public domain from **[Gutenberg](https://www.gutenberg.org/)**. With these criteria 7 authors have been selected and their books were queried: **Arthur Conan Doyle**, **Charles Dickens**, **Edgar Allan Poe**, **George Eliot**, **Jack London**, **Jane Austin** and **Mark Twain**. We collected 3 books of each author and built up the data set in csv file. For each book, we selected 10% of the paragraphs. 
 The objective is to accurately identify the author of the sentences in the test set. 
+
+## TEXT PREPROCESSING
 We tried two different preprocessing techniques. The first (text_preprocessed) will be fully preprocessed (low letters, missing punctuation, words represented like tokens and then lemmatization. The second dataset (text_preprocessed_1) will only have low letters and will be tokenized.
 Dataset was preprocessed using couple of features, relating to the form of the text, and relating to the substance of the text like:
 * *Lower casing* - to prevent multiple versions of the same word, all the words despite their casing are normalized to lowercase form so they can all be counted collectively;
